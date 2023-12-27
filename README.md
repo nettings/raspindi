@@ -1,5 +1,9 @@
 # RaspiNDI
 
+> This is Jörn's working copy with some additional fixes and features. You are
+> welcome to use it, but the original work and tree is at 
+> https://github.com/raspberry-pi-camera/raspindi .
+
 RaspiNDI is a simple NDI send library for Raspberry Pi. It was initially
 developed to allow a streaming setup for a church during the COVID-19 outbreak
 in 2020. 
@@ -12,9 +16,9 @@ the on-board camera port. ❗**
 
 ## Supported boards
 
-This software is tested with Raspberry Pi 3B+ boards. Some users have had success
-running it on a Rapsberry Pi 4. **The Pi Zero W does not have enough memory to run
-this software**
+This software is tested with Raspberry Pi 3B+ and 4B boards.
+
+**The Pi Zero W does not have enough memory to run this software**
 
 ## Latency Notes
 Raspberry Pi 3b+ = ~600ms   
@@ -101,6 +105,11 @@ works well.
 
 
 # Changelog
+
+## Jörn's private fixes
+Use system-wide libcamera-apps headers.
+Enable denoise parameter.
+Apply tally fixes by SBCV-apegram.
 
 ## v3.0.4
 Updated libcamera code to fit with libcamera changes.
