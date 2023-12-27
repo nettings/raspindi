@@ -16,3 +16,4 @@ fps=25;
 # meteringmode: "average"; // Options: centre, spot, average, matrix, custom
 # rotation: 0; // Options: 0, 180
 # mirror: "none"; // Options: none, horizontal, vertical, both
+# ndi_stream_name: "Video feed"; // a string identifying the feed
