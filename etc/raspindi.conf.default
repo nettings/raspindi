@@ -7,6 +7,7 @@ fps=25;
 # awb: "auto"; // Options: auto, normal, incadescent, tungsten, fluorescent, indoor, daylight, cloudy, custom
 # r_gain: 0; // red gain (for custom awb)
 # b_gain: 0; // blue gain (for custom awb)
+# denoise: "off"; // Options: auto, off, cdn_off, cdn_fast, cdn_hq
 # saturation: 0; // Value in range 0.0f - 15.99f
 # sharpness: 0; // Value in range 0.0f - 15.99f
 # contrast: 0; // Value in range 0.0f - 15.99f

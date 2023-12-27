@@ -162,7 +162,7 @@ int main(int argc, char *argv[])
 		options->codec = "YUV420";
 		options->verbose = false;
 		options->nopreview = true;
-		options->denoise = "off";
+		options->denoise = _getValue("denoise", "off");
 		// Set flip
 		options->width = _getValue("width", 1280);
 		options->height = _getValue("height", 720);
