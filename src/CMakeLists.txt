@@ -7,6 +7,7 @@ target_sources(raspindi PRIVATE
 target_include_directories(raspindi PRIVATE
         ../include/
         /usr/include/libcamera/
+	/usr/include/libcamera-apps/
 )
 target_link_directories(raspindi PRIVATE
         ../lib/ndi/
@@ -28,6 +29,7 @@ add_library(ndioutput ndi_output.cpp)
 target_include_directories(ndioutput PRIVATE
         ../include/
         /usr/include/libcamera/
+	/usr/include/libcamera-apps/
 )
 target_link_directories(ndioutput PRIVATE
         ../lib/ndi/
